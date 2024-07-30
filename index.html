@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">Muthuraman S</div>
+          <ul class="nav-links">
+            <li><a href="#about" onclick="toggleMenu()">about</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+          </ul>
+        </nav>
+    </header><br><br>
+    <h2 class="about-tit">About me</h2>
+    <section id="about">
+        <p>I am a passionate <strong>BCA </strong>graduate with a strong foundation in web development.
+            I specialize in creating dynamic and scalable web applications using <em> HTML, CSS,
+            JavaScript, and Python.</em> Proficient in frameworks like Django and Flask, and
+            experienced with SQLAlchemy for database management, I excel in building robust
+            solutions. Additionally, I have substantial experience in developing RESTful APIs and
+            integrating third-party libraries to enhance functionality. Familiar with modern
+            software development methodologies and proficient in version control systems
+            such as Git and GitHub, I am eager to leverage my academic background and
+            hands-on experience to contribute effectively as a Web Developer within a
+            collaborative team environment.
+        </p>
+        <img src="images/profile.png" alt="Your Name">    
+    </section>
+    <a class="resume" href="path-to-resume.pdf" class="btn" download>Resume</a>
+    <br>
+    <br>
+    
+    <h2 class="skill-tit">Skills</h2><br>
+    <section id="skills">
+      <div class="skill">
+        <p>HTML & CSS</p>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>JavaScript</p>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Python</p>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Django & Flask</p>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 75%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>SQLAlchemy</p>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 70%;"></div>
+        </div>
+      </div>
+    </section><br>
+    <h2 class="pro-tit">Projects</h2>
+    <section id="projects">
+        <div class="project">
+          <h3>Project Title</h3>
+          <img src="images/pro1.jpg" alt="Project Image">
+          <p>Description of the project...</p>
+          <a href="link-to-project">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Title</h3>
+          <img src="images/pro2.jpg" alt="Project Image">
+          <p>Description of the project...</p>
+          <a href="link-to-project">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project Title</h3>
+          <img src="images/pro3.jpg" alt="Project Image">
+          <p>Description of the project...</p>
+          <a href="link-to-project">View Project</a>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@gmail.com</a></p>
+        <p>Phone: <a href="tel:+91 9876543210">+91 9876543210</a></p>
+        <footer>
+          <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>  
+      </section>  
+</body>
+</html>
